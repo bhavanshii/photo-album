@@ -53,40 +53,7 @@ play_button.pack(pady=40)
 root.mainloop()
 
 
-# import tkinter as tk
-# from PIL import Image, ImageTk
 
-# root = tk.Tk()
-# root.title("Photo slideshow Album")
-# root.geometry("500x500")
-
-# image_paths = [
-#     r"C:\Users\User\Desktop\bhavanshi\animal_photo.jpg",
-#     r"C:\Users\User\Desktop\bhavanshi\bhavanshi image.jpeg",
-#     r"C:\Users\User\Desktop\bhavanshi\images.jpg"
-# ]
-
-# images = []
-# for path in image_paths:
-#     img = Image.open(path)
-#     img = img.resize((400, 400))
-#     images.append(ImageTk.PhotoImage(img))
-
-# image_label = tk.Label(root)
-# image_label.pack()
-
-# index = 0
-
-# def show_image():
-#     global index
-#     image_label.config(image=images[index])
-#     index = (index + 1) % len(images)
-#     root.after(2000, show_image)
-
-# # 👇 auto start
-# show_image()
-
-# root.mainloop()
 
 
 
